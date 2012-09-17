@@ -40,7 +40,7 @@ if masacare.strip() == "Y":
 	kill = MASACARE
 	print "All Clones will be killed HAHAHAHA :->"
 else:
-	print "Clones will bwe spared :-|"
+	print "Clones will be spared :-|"
 
 
 file_paths_1 = files_in_a_directory(directory)
