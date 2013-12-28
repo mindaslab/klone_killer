@@ -15,3 +15,14 @@ Where it works
 Klone Killer was tested on Ubuntu 12.04 64-bit, Python 2.7.3 . It should
 work well on all Ubuntu systems at present that has Python 2.7.3 and other
 Debian and its derivatives too.
+
+How to use it
+---------------
+
+* Download it
+* Goto the directory where it is
+* Type the following in terminal
+ 
+```
+$ python klone_killer.py
+```
