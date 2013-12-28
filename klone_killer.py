@@ -1,3 +1,5 @@
+#! /usr/bin/python
+
 import os
 import filecmp # see http://docs.python.org/library/filecmp.html
 
