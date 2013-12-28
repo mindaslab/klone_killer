@@ -12,8 +12,9 @@ the same problem as I do.
 Where it works
 ---------------
 
-Klone Killer was tested on Ubuntu 13.10 64-bit with Python 2.7.3 . It should
-work well on all Ubuntu / Debian systems at present that has Python 2.7.3.
+Klone Killer was tested on Ubuntu 13.10 64-bit with Python 2.7.5+ . It
+should work well on all Ubuntu / Debian systems at present that has
+Python 2.7.3.
 
 How to use it
 ---------------

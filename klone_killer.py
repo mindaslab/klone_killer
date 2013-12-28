@@ -12,7 +12,7 @@ def compare_files(file_paths_1, file_paths_2, kill = DONT_KILL):
   for file_path_1 in file_paths_1:    
     for file_path_2 in file_paths_2:
       if (file_path_1 != file_path_2) and filecmp.cmp( str(file_path_1), str(file_path_2) ):
-        print str(file_path_1)+" => "+str(file_path_2)
+        print(str(file_path_1)+" => "+str(file_path_2))
         file_paths_1.remove(file_path_2) # removes duplicate occurancess in output
         if kill:
           os.remove(file_path_2)
@@ -40,11 +40,12 @@ masacare = raw_input("Do you want to kill clones (Y/N): ")
 kill = DONT_KILL
 if masacare.strip() == "Y":
   kill = MASACARE
-  print "All Clones will be killed HAHAHAHA :->"
+  print("All Clones will be killed HAHAHAHA :->")
 else:
-  print "Clones will be spared :-|"
+  print("Clones will be spared :-|")
 
 
 file_paths_1 = files_in_a_directory(directory)
 file_paths_2 = file_paths_1 + [] # copy contents of file_paths_1 to file_paths_2
 compare_files(file_paths_1, file_paths_2, kill)
+
